@@ -1,0 +1,91 @@
+
+
+body {
+	width:80%;
+	margin :auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url('../images/background.gif');
+}
+h1{
+text-align:center;
+
+}
+
+.item {
+	border-style: double;
+	background-color: #fffafa;
+	margin-top:2px;
+	margin-bottom:2px;
+	padding:0px;
+}
+
+.item li {
+	list-style-type: square;
+}
+
+.item a:hover {
+	color:#FF00FF;
+	font-family:"Times New Roman", Times, serif;
+}  /* mouse over link */
+
+
+
+#corps {
+	padding: 10px;
+	text-align:justify;
+	background-color : white;
+	color:gray;
+/* 	margin-left:200px; */
+}
+
+.resultSerie{
+cursor:  pointer;
+
+}
+
+
+#infoSeriebanner{
+	text-align:center;
+
+}
+
+#listeEpisoes h3
+{
+  margin:0;
+  padding:5px 0 5px 10px;
+  background-color:#94C5EB;
+  border-bottom:1px solid #fff;
+  color: #00314F;
+  font-weight:normal;
+  cursor:  pointer;
+}
+
+#listeEpisoes div
+{
+  /* height:120px; */
+/*   background-color: #F4F4EE; */
+  border-bottom:1px solid #fff;
+  position: relative;
+  
+}
+
+#listeEpisoes div ul
+{
+list-style-type: none;
+}
+.resultEpisode{
+cursor:  pointer;
+
+}
+
+.newepisode{
+	background-color: #F4F4EE;
+}
+
+#footer {
+	margin-top:10px;
+	border-style: solid;
+	text-align:center;
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial;
+}

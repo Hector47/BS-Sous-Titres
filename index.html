@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xml:lang="fr" lang="en">
+<head>
+<title>Recherche de sous-titres</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen"  title="Style 1"/>
+<script type="text/javascript" src="javascript/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.easing.1.2.js"></script>
+<script type="text/javascript" src="javascript/search.js"></script>
+
+</head>
+<body>
+	<div id="container">
+		<div id="en_tete"></div>
+<div id="loadingDiv"><image source="../images/loading.gif" /></div>
+		
+		<div id="corps">
+			<h1>Recherche de sous-titre</h1>
+			
+			
+				<!--<form action="">-->
+			<h2>Recherche serie</h2>
+			<div id="rechercheSerie">
+				<label for="Ssearch">Series</label>
+				<input type="search" name="Ssearch" id="Ssearch" placeholder="Series" speech x-webkit-speech onwebkitspeechchange="vocaleSerie(this.value);"/>
+				<!--<input type="submit" id="toggleButton" value="Find">-->
+
+			</div>
+			<div id="resultatRechercheSerie">
+				<ul></ul>
+			</div>
+			<h2>Info serie</h2>
+			<div id="infoSerie">
+				<div id="infoSerietitle"></div>
+				<div id="infoSeriedescription"></div>
+				<div id="infoSeriestatus"></div>
+				<div id="infoSeriebanner"></div>
+				<div id="infoSeriegenres"></div>
+				<!-- <div id="infoSerieurl"></div> -->
+			</div>
+			<h2>Liste episodes</h2>
+			<div id="listeEpisoes">
+			</div>
+			<h2>Liste sous-titres</h2>
+			<div id="listeSoustitre">
+				<ul></ul>
+			</div>
+			<!--</form>-->
+		</div>
+		<div id="footer">
+			<p id="credits">Crée par Reviosoft en utilisant <a href="http://www.betaseries.com/">BetaSeries</a> </p>
+		</div>
+	</div>
+	<div id="commants">
+	</div>
+</body>
+
+</html>
